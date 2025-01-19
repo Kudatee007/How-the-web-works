@@ -1,0 +1,9 @@
+## Links
+1. Canva: [What is the Internet](https://www.canva.com/design/DAGcG9Ded1M/huLzw6eayDv8KDtt2WY7FA/view?utm_content=DAGcG9Ded1M&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h5f043a1cab#17)
+2. Academind: [How the Web Works](https://academind.com/tutorials/how-the-web-works)
+3. Digital Marketing Institute: [How Search Engines Work](https://digitalmarketinginstitute.com/blog/how-do-search-engines-actually-work)
+4. Cloudflare: [What is Streaming](https://www.cloudflare.com/learning/video/what-is-streaming/)
+5. Investopedia: [What is Social Media](https://www.investopedia.com/terms/s/social-media.asp)
+6. ResearchGate: [Web-Based E-commerce System](https://www.researchgate.net/publication/359903396_Design_and_Implementation_of_a_Web-Based_Electronic-Commerce_System)
+7. YouTube: [How the Internet Works](https://www.youtube.com/watch?v=3CgJRdJetiw&t=6s)
+8. YouTube: [Web Protocols Explained](https://www.youtube.com/watch?v=hJHvdBlSxug)
