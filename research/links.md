@@ -7,3 +7,5 @@
 6. ResearchGate: [Web-Based E-commerce System](https://www.researchgate.net/publication/359903396_Design_and_Implementation_of_a_Web-Based_Electronic-Commerce_System)
 7. YouTube: [How the Internet Works](https://www.youtube.com/watch?v=3CgJRdJetiw&t=6s)
 8. YouTube: [Web Protocols Explained](https://www.youtube.com/watch?v=hJHvdBlSxug)
+9. Node.js Documentation: [DNS Module](https://nodejs.org/api/dns.html)
+10. npm: [ftp Package](https://www.npmjs.com/package/ftp)

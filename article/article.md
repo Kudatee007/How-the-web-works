@@ -36,6 +36,22 @@ Web protocols are standardized rules and conventions that govern how data is tra
 1. **DNS (Domain Name System):** 
 DNS is a special type of server out there in the internet and the job of these DNS servers is to translate  domain names (e.g example.com) to IP addresses (e.g., 142.250.64.78). You can think of DNS as a phonebook for the web.
 
+### Example: Performing a DNS Lookup in Python
+
+Here's how you can perform a DNS lookup to find the IP address associated with a domain name:
+
+```javascript
+// Importing the 'dns' module for DNS lookups
+const dns = require('node:dns');
+
+// Performing a DNS lookup for the domain 'example.org'
+dns.lookup('example.org', (err, address, family) => {
+  if (err) throw err;
+  // Logging the IP address and the IP family (IPv4 or IPv6) to the console
+  console.log('address: %j family: IPv%s', address, family);
+});
+// Example output: address: "2606:2800:21f:cb07:6820:80da:af6b:8b2c" family: IPv6
+
 2. **HTTP/HTTPS (Hypertext Transfer Protocol / Secure):** 
 - **HTTP:** The primary protocol for transferring web pages and other resources between a client and a server.
 - **HTTPS:** Adds an encryption layer using TLS (Transport Layer Security), ensuring secure communication and protecting sensitive information like passwords and credit card details.
@@ -48,8 +64,58 @@ DNS is a special type of server out there in the internet and the job of these D
 - **TCP:** Ensures reliable delivery of data packets by breaking them into smaller packets and reassembling them at the destination.
 - **IP:** handles addressing and routing these packets across networks.
 
-5. **FTP (File Transfer Protocol):**
+5. **HTML (Hypertext Markup Language):**
+- Web pages are primarily structured using Hypertext Markup Language (HTML). HTML provides the framework for web content allowing browsers to render text, images, and other media.
+
+### Example: HTML Code
+
+Below is an example of a simple HTML document:
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Web Page</title>
+</head>
+<body>
+    <h1>Welcome to My Web Page</h1>
+    <p>This is an example of a basic web page.</p>
+</body>
+</html>
+```
+
+6. **FTP (File Transfer Protocol):**
 - Used for transferring files between computers.
+
+### FTP EXAMPLE
+
+```javascript
+// Import the 'ftp' module
+const Client = require('ftp');
+
+// Create a new instance of the FTP client
+const c = new Client();
+
+// Event listener for when the client is ready
+c.on('ready', function() {
+    // List the contents of the current directory on the FTP server
+    c.list(function(err, list) {
+        // If an error occurs, throw it
+        if (err) throw err;
+        
+        // Log the list of directory contents to the console
+        console.dir(list);
+        
+        // End the FTP connection
+        c.end();
+    });
+});
+
+// Connect to the FTP server (default is localhost on port 21, with anonymous login)
+c.connect();
+```
 
 
 
